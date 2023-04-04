@@ -56,7 +56,7 @@ pub const PK_SIZE: usize = 48;
 pub const SIG_SIZE: usize = 96;
 
 /// The domain separator tag
-pub const DST: &[u8; 43] = b"BLS_SIG_BLS12381G2_XMD:SHA-256_SSWU_RO_NUL_";
+pub const DST: &[u8; 43] = b"BLS_SIG_BLS12381G2_XMD:SHA-256_SSWU_RO_POP_";
 
 /// A public key.
 #[derive(Deserialize, Serialize, Copy, Clone, PartialEq, Eq)]
